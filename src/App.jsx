@@ -20,9 +20,9 @@ function App() {
       {/* <button onClick={toggleTheme}>
         Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode
       </button> */}
-      <div className="mx-auto px-1 max-w-[95%] 2xl:max-w-screen-2xl">
+      <main className="mx-auto px-1 max-w-[95%] 2xl:max-w-screen-2xl">
         <AppRoutes />
-      </div>
+      </main>
     </div>
   );
 }
